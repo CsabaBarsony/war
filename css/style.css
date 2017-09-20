@@ -1,0 +1,38 @@
+body {
+    margin: 0
+}
+
+#battleground {
+    position: relative;
+    margin: 20px;
+}
+
+.tank {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform-origin: center;
+    transform: translate(-10px, -10px);
+    background: #ffcc97;
+    border-radius: 10px;
+}
+
+.directionMarker {
+    width: 10px;
+    height: 1px;
+    background: red;
+    transform: translate(10px, 10px);
+}
+
+.block {
+    position: absolute;
+    background: blue;
+}
+
+.bullet {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: red;
+    transform: translate(-2px, -2px);
+}
